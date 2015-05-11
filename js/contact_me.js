@@ -38,7 +38,7 @@ $(function() {
                         .append('</div>');
 
                     //clear all fields
-                    $('#contactForm').trigger("reset");
+                    $('#contacForm').trigger("reset");
                 },
                 error: function() {
                      // Success message
@@ -51,7 +51,7 @@ $(function() {
                         .append('</div>');
 
                     //clear all fields
-                    $('#contactForm').trigger("reset");
+                    $('#contacForm').trigger("reset");
                 },
             })
         },
